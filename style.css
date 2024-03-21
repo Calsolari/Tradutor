@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', 'sans-serif';
+}
+
+.faixa-roxa{
+    background-color: blueviolet;
+    width: 70px;
+    height: 100%;
+    position: absolute;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.title h1{
+    font-size: 80px;
+    color: blueviolet;
+}
+
+.title img{
+    width: 40px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.title button{
+    display: flex;
+    /* justify-content: ; */
+    padding: 16px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+main{
+    height: 80vh;
+}
+
+.tradutor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 200px;
+}
+
+.tradutor img{
+    width: 48px;
+}
+
+input{
+    padding: 10px;
+    width: 880px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-width: 0.4;
+    font-size: medium;
+    font-weight: normal;
+}
+
+.result-traducao input::placeholder{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+}
+
+.criadores h1{
+    font-size: 18px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+/* Modo Escuro */
+
+.temaEscuro{
+    background-color: black;
+}
